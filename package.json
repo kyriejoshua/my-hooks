@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/kyriejoshua/my-hooks#readme",
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "tslint": "^6.1.3",
