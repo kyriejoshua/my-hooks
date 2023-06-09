@@ -13,3 +13,5 @@ const Demo = () => {
     {data}
   </div>
 }
+
+export default Demo;
