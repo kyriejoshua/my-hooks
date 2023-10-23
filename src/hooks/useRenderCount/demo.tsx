@@ -1,7 +1,14 @@
+/*
+ * @Author: kyriejoshua
+ * @Description: TODO
+ * @Date: 2023-10-16 22:52:03
+ * @LastEditors: kyriejoshua
+ * @LastEditTime: 2023-10-23 22:24:06
+ */
 import React, { useState } from 'react';
 import useRenderCount from '.';
 
-const Demo = () => {
+const ComponentUseRenderCount = () => {
   const renderCount = useRenderCount();
   const [count, setCount] = useState(0);
 
@@ -17,4 +24,4 @@ const Demo = () => {
   </>
 }
 
-export default Demo;
+export default ComponentUseRenderCount;

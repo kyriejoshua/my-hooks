@@ -1,9 +1,10 @@
 import React from 'react';
 import useCallbackWithErrorHandling from '.';
 
-const Demo = () => {
+const ComponentUseCallbackWithErrorHandling = () => {
   const onClick = () => {
     // do something dangerous here
+    throw new Error('custom err!')
   }
 
   const onClickWithErrorHandler = useCallbackWithErrorHandling(onClick);
@@ -11,4 +12,4 @@ const Demo = () => {
   return <button onClick={onClickWithErrorHandler}>click me!</button>
 }
 
-export default Demo;
+export default ComponentUseCallbackWithErrorHandling
